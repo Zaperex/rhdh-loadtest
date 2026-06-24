@@ -7,7 +7,7 @@ export const EntityCatalogCard: any = EntityContentBlueprint.make({
   name: 'EntityCatalogCard',
   params: {
     path: PLUGIN_ID,
-    title: 'Catalog Tab N',
+    title: 'catalog-tab-n',
     loader: () =>
       import('../components/ExampleComponent').then(m => (
         <m.ExampleComponent />

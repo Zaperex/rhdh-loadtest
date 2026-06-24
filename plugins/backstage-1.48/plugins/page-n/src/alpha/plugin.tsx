@@ -10,7 +10,7 @@ export const page = PageBlueprint.make({
   params: {
     path: '/page-n',
     routeRef: rootRouteRef,
-    title: 'Page N',
+    title: 'page-n',
     icon: <ExtensionIcon/>,
     loader: () =>
       import('../components/ExampleComponent').then(m => <m.ExampleComponent />),
