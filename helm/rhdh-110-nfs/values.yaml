@@ -198,3 +198,10 @@ redhat-developer-hub:
             configMapKeyRef:
               name: rhdh-baseurl-configmap
               key: BASEURL
+        # added to enable NFS
+        - name: BACKSTAGE_LOG_LEVEL
+          value: debug
+        - name: APP_CONFIG_app_packageName
+          value: app-next
+        - name: ENABLE_STANDARD_MODULE_FEDERATION
+          value: 'true'
