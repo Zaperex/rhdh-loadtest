@@ -1,5 +1,5 @@
-CHART_NAME = rhdh-18-loadtests
-NAMESPACE = rhdh-18-loadtests
+CHART_NAME = rhdh-loadtests-18
+NAMESPACE = rhdh-loadtests-18
 
 install:
 	helm upgrade --install $(CHART_NAME) . --create-namespace --namespace $(NAMESPACE) --values values.yaml

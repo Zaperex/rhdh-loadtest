@@ -28,7 +28,6 @@ global:
         disabled: false
       - package: oci://quay.io/jerolimov/rhdh-loadtest-plugins:bs_1.48_page-8!internal-backstage-plugin-page-8
         disabled: false
-        pluginConfig:
       - package: oci://quay.io/jerolimov/rhdh-loadtest-plugins:bs_1.48_page-9!internal-backstage-plugin-page-9
         disabled: false
       - package: oci://quay.io/jerolimov/rhdh-loadtest-plugins:bs_1.48_page-10!internal-backstage-plugin-page-10
