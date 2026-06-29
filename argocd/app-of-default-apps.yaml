@@ -1,0 +1,17 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  namespace: openshift-gitops
+  name: rhdh-loadtests-app-of-default-apps
+spec:
+  project: rhdh-loadtests
+  source:
+    repoURL: 'https://github.com/christoph-jerolimov/rhdh-loadtests.git'
+    targetRevision: HEAD
+    path: argocd/default-apps
+  destination:
+    name: in-cluster
+    namespace: openshift-gitops
+  syncPolicy:
+    automated:
+      enabled: true
