@@ -3,11 +3,16 @@ import { EntityContentBlueprint } from '@backstage/plugin-catalog-react/alpha';
 
 const PLUGIN_ID = 'catalog-tab-n';
 
+function catalogTabDisplayTitle(pluginId: string): string {
+  const suffix = pluginId.replace(/^catalog-tab-/, '');
+  return `Catalog Tab ${suffix === 'n' ? 'N' : suffix}`;
+}
+
 export const EntityCatalogCard: any = EntityContentBlueprint.make({
   name: 'EntityCatalogCard',
   params: {
     path: PLUGIN_ID,
-    title: 'catalog-tab-n',
+    title: catalogTabDisplayTitle(PLUGIN_ID),
     loader: () =>
       import('../components/ExampleComponent').then(m => (
         <m.ExampleComponent />
