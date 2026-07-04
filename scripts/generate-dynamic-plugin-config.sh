@@ -22,7 +22,7 @@ echo "      # other plugins..."
 
 for i in $(seq 1 $pages); do
   cat <<EOF
-      - package: oci://quay.io/jerolimov/rhdh-loadtest-plugins:${backstage_prefix}page-$i!${path_prefix}page-$i
+      - package: oci://quay.io/rhdh-community/rhdh-loadtest-plugins:${backstage_prefix}page-$i!${path_prefix}page-$i
         disabled: false
         pluginConfig:
           dynamicPlugins:
@@ -39,7 +39,7 @@ done
 
 for i in $(seq 1 $catalog_tabs); do
   cat <<EOF
-      - package: oci://quay.io/jerolimov/rhdh-loadtest-plugins:${backstage_prefix}catalog-tab-$i!${path_prefix}catalog-tab-$i
+      - package: oci://quay.io/rhdh-community/rhdh-loadtest-plugins:${backstage_prefix}catalog-tab-$i!${path_prefix}catalog-tab-$i
         disabled: false
         pluginConfig:
           dynamicPlugins:

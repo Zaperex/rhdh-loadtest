@@ -3,7 +3,7 @@
 set -e
 
 localImage="localhost/rhdh-loadtest-plugins"
-remoteRepo="quay.io/jerolimov/rhdh-loadtest-plugins"
+remoteRepo="quay.io/rhdh-community/rhdh-loadtest-plugins"
 
 # list local podman containers
 for tag in $(podman images --filter=reference="$localImage:*" --format '{{.Tag}}' | grep -e "-n$"); do

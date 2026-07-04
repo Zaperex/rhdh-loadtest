@@ -7,7 +7,7 @@ global:
         disabled: false
       - package: ./dynamic-plugins/dist/red-hat-developer-hub-backstage-plugin-bulk-import-backend-dynamic
         disabled: false
-      - package: oci://quay.io/jerolimov/rhdh-loadtest-plugins:bs_1.42_page-1!internal-plugin-page-1
+      - package: oci://quay.io/rhdh-community/rhdh-loadtest-plugins:bs_1.42_page-1!internal-plugin-page-1
         disabled: false
         pluginConfig:
           dynamicPlugins:
@@ -19,7 +19,7 @@ global:
                     menuItem:
                       icon: dashboard
                       text: Page 1
-      - package: oci://quay.io/jerolimov/rhdh-loadtest-plugins:bs_1.42_page-2!internal-plugin-page-2
+      - package: oci://quay.io/rhdh-community/rhdh-loadtest-plugins:bs_1.42_page-2!internal-plugin-page-2
         disabled: false
         pluginConfig:
           dynamicPlugins:
@@ -31,7 +31,7 @@ global:
                     menuItem:
                       icon: dashboard
                       text: Page 2
-      - package: oci://quay.io/jerolimov/rhdh-loadtest-plugins:bs_1.42_page-3!internal-plugin-page-3
+      - package: oci://quay.io/rhdh-community/rhdh-loadtest-plugins:bs_1.42_page-3!internal-plugin-page-3
         disabled: false
         pluginConfig:
           dynamicPlugins:
@@ -43,7 +43,7 @@ global:
                     menuItem:
                       icon: dashboard
                       text: Page 3
-      - package: oci://quay.io/jerolimov/rhdh-loadtest-plugins:bs_1.42_page-4!internal-plugin-page-4
+      - package: oci://quay.io/rhdh-community/rhdh-loadtest-plugins:bs_1.42_page-4!internal-plugin-page-4
         disabled: false
         pluginConfig:
           dynamicPlugins:
@@ -55,7 +55,7 @@ global:
                     menuItem:
                       icon: dashboard
                       text: Page 4
-      - package: oci://quay.io/jerolimov/rhdh-loadtest-plugins:bs_1.42_page-5!internal-plugin-page-5
+      - package: oci://quay.io/rhdh-community/rhdh-loadtest-plugins:bs_1.42_page-5!internal-plugin-page-5
         disabled: false
         pluginConfig:
           dynamicPlugins:
@@ -67,7 +67,7 @@ global:
                     menuItem:
                       icon: dashboard
                       text: Page 5
-      - package: oci://quay.io/jerolimov/rhdh-loadtest-plugins:bs_1.42_page-6!internal-plugin-page-6
+      - package: oci://quay.io/rhdh-community/rhdh-loadtest-plugins:bs_1.42_page-6!internal-plugin-page-6
         disabled: false
         pluginConfig:
           dynamicPlugins:
@@ -79,7 +79,7 @@ global:
                     menuItem:
                       icon: dashboard
                       text: Page 6
-      - package: oci://quay.io/jerolimov/rhdh-loadtest-plugins:bs_1.42_page-7!internal-plugin-page-7
+      - package: oci://quay.io/rhdh-community/rhdh-loadtest-plugins:bs_1.42_page-7!internal-plugin-page-7
         disabled: false
         pluginConfig:
           dynamicPlugins:
@@ -91,7 +91,7 @@ global:
                     menuItem:
                       icon: dashboard
                       text: Page 7
-      - package: oci://quay.io/jerolimov/rhdh-loadtest-plugins:bs_1.42_page-8!internal-plugin-page-8
+      - package: oci://quay.io/rhdh-community/rhdh-loadtest-plugins:bs_1.42_page-8!internal-plugin-page-8
         disabled: false
         pluginConfig:
           dynamicPlugins:
@@ -103,7 +103,7 @@ global:
                     menuItem:
                       icon: dashboard
                       text: Page 8
-      - package: oci://quay.io/jerolimov/rhdh-loadtest-plugins:bs_1.42_page-9!internal-plugin-page-9
+      - package: oci://quay.io/rhdh-community/rhdh-loadtest-plugins:bs_1.42_page-9!internal-plugin-page-9
         disabled: false
         pluginConfig:
           dynamicPlugins:
@@ -115,7 +115,7 @@ global:
                     menuItem:
                       icon: dashboard
                       text: Page 9
-      - package: oci://quay.io/jerolimov/rhdh-loadtest-plugins:bs_1.42_page-10!internal-plugin-page-10
+      - package: oci://quay.io/rhdh-community/rhdh-loadtest-plugins:bs_1.42_page-10!internal-plugin-page-10
         disabled: false
         pluginConfig:
           dynamicPlugins:
@@ -127,7 +127,7 @@ global:
                     menuItem:
                       icon: dashboard
                       text: Page 10
-      - package: oci://quay.io/jerolimov/rhdh-loadtest-plugins:bs_1.42_page-11!internal-plugin-page-11
+      - package: oci://quay.io/rhdh-community/rhdh-loadtest-plugins:bs_1.42_page-11!internal-plugin-page-11
         disabled: false
         pluginConfig:
           dynamicPlugins:
@@ -139,7 +139,7 @@ global:
                     menuItem:
                       icon: dashboard
                       text: Page 11
-      - package: oci://quay.io/jerolimov/rhdh-loadtest-plugins:bs_1.42_page-12!internal-plugin-page-12
+      - package: oci://quay.io/rhdh-community/rhdh-loadtest-plugins:bs_1.42_page-12!internal-plugin-page-12
         disabled: false
         pluginConfig:
           dynamicPlugins:
@@ -151,7 +151,7 @@ global:
                     menuItem:
                       icon: dashboard
                       text: Page 12
-      - package: oci://quay.io/jerolimov/rhdh-loadtest-plugins:bs_1.42_page-13!internal-plugin-page-13
+      - package: oci://quay.io/rhdh-community/rhdh-loadtest-plugins:bs_1.42_page-13!internal-plugin-page-13
         disabled: false
         pluginConfig:
           dynamicPlugins:
@@ -163,7 +163,7 @@ global:
                     menuItem:
                       icon: dashboard
                       text: Page 13
-      - package: oci://quay.io/jerolimov/rhdh-loadtest-plugins:bs_1.42_page-14!internal-plugin-page-14
+      - package: oci://quay.io/rhdh-community/rhdh-loadtest-plugins:bs_1.42_page-14!internal-plugin-page-14
         disabled: false
         pluginConfig:
           dynamicPlugins:
@@ -175,7 +175,7 @@ global:
                     menuItem:
                       icon: dashboard
                       text: Page 14
-      - package: oci://quay.io/jerolimov/rhdh-loadtest-plugins:bs_1.42_page-15!internal-plugin-page-15
+      - package: oci://quay.io/rhdh-community/rhdh-loadtest-plugins:bs_1.42_page-15!internal-plugin-page-15
         disabled: false
         pluginConfig:
           dynamicPlugins:
@@ -187,7 +187,7 @@ global:
                     menuItem:
                       icon: dashboard
                       text: Page 15
-      - package: oci://quay.io/jerolimov/rhdh-loadtest-plugins:bs_1.42_page-16!internal-plugin-page-16
+      - package: oci://quay.io/rhdh-community/rhdh-loadtest-plugins:bs_1.42_page-16!internal-plugin-page-16
         disabled: false
         pluginConfig:
           dynamicPlugins:
@@ -199,7 +199,7 @@ global:
                     menuItem:
                       icon: dashboard
                       text: Page 16
-      - package: oci://quay.io/jerolimov/rhdh-loadtest-plugins:bs_1.42_page-17!internal-plugin-page-17
+      - package: oci://quay.io/rhdh-community/rhdh-loadtest-plugins:bs_1.42_page-17!internal-plugin-page-17
         disabled: false
         pluginConfig:
           dynamicPlugins:
@@ -211,7 +211,7 @@ global:
                     menuItem:
                       icon: dashboard
                       text: Page 17
-      - package: oci://quay.io/jerolimov/rhdh-loadtest-plugins:bs_1.42_page-18!internal-plugin-page-18
+      - package: oci://quay.io/rhdh-community/rhdh-loadtest-plugins:bs_1.42_page-18!internal-plugin-page-18
         disabled: false
         pluginConfig:
           dynamicPlugins:
@@ -223,7 +223,7 @@ global:
                     menuItem:
                       icon: dashboard
                       text: Page 18
-      - package: oci://quay.io/jerolimov/rhdh-loadtest-plugins:bs_1.42_page-19!internal-plugin-page-19
+      - package: oci://quay.io/rhdh-community/rhdh-loadtest-plugins:bs_1.42_page-19!internal-plugin-page-19
         disabled: false
         pluginConfig:
           dynamicPlugins:
@@ -235,7 +235,7 @@ global:
                     menuItem:
                       icon: dashboard
                       text: Page 19
-      - package: oci://quay.io/jerolimov/rhdh-loadtest-plugins:bs_1.42_page-20!internal-plugin-page-20
+      - package: oci://quay.io/rhdh-community/rhdh-loadtest-plugins:bs_1.42_page-20!internal-plugin-page-20
         disabled: false
         pluginConfig:
           dynamicPlugins:
@@ -247,7 +247,7 @@ global:
                     menuItem:
                       icon: dashboard
                       text: Page 20
-      - package: oci://quay.io/jerolimov/rhdh-loadtest-plugins:bs_1.42_page-21!internal-plugin-page-21
+      - package: oci://quay.io/rhdh-community/rhdh-loadtest-plugins:bs_1.42_page-21!internal-plugin-page-21
         disabled: false
         pluginConfig:
           dynamicPlugins:
@@ -259,7 +259,7 @@ global:
                     menuItem:
                       icon: dashboard
                       text: Page 21
-      - package: oci://quay.io/jerolimov/rhdh-loadtest-plugins:bs_1.42_page-22!internal-plugin-page-22
+      - package: oci://quay.io/rhdh-community/rhdh-loadtest-plugins:bs_1.42_page-22!internal-plugin-page-22
         disabled: false
         pluginConfig:
           dynamicPlugins:
@@ -271,7 +271,7 @@ global:
                     menuItem:
                       icon: dashboard
                       text: Page 22
-      - package: oci://quay.io/jerolimov/rhdh-loadtest-plugins:bs_1.42_page-23!internal-plugin-page-23
+      - package: oci://quay.io/rhdh-community/rhdh-loadtest-plugins:bs_1.42_page-23!internal-plugin-page-23
         disabled: false
         pluginConfig:
           dynamicPlugins:
@@ -283,7 +283,7 @@ global:
                     menuItem:
                       icon: dashboard
                       text: Page 23
-      - package: oci://quay.io/jerolimov/rhdh-loadtest-plugins:bs_1.42_page-24!internal-plugin-page-24
+      - package: oci://quay.io/rhdh-community/rhdh-loadtest-plugins:bs_1.42_page-24!internal-plugin-page-24
         disabled: false
         pluginConfig:
           dynamicPlugins:
@@ -295,7 +295,7 @@ global:
                     menuItem:
                       icon: dashboard
                       text: Page 24
-      - package: oci://quay.io/jerolimov/rhdh-loadtest-plugins:bs_1.42_page-25!internal-plugin-page-25
+      - package: oci://quay.io/rhdh-community/rhdh-loadtest-plugins:bs_1.42_page-25!internal-plugin-page-25
         disabled: false
         pluginConfig:
           dynamicPlugins:
@@ -307,7 +307,7 @@ global:
                     menuItem:
                       icon: dashboard
                       text: Page 25
-      - package: oci://quay.io/jerolimov/rhdh-loadtest-plugins:bs_1.42_catalog-tab-1!internal-plugin-catalog-tab-1
+      - package: oci://quay.io/rhdh-community/rhdh-loadtest-plugins:bs_1.42_catalog-tab-1!internal-plugin-catalog-tab-1
         disabled: false
         pluginConfig:
           dynamicPlugins:
@@ -320,7 +320,7 @@ global:
                 mountPoints:
                   - mountPoint: entity.page.catalog-tab-1/cards
                     importName: EntityCatalogCard
-      - package: oci://quay.io/jerolimov/rhdh-loadtest-plugins:bs_1.42_catalog-tab-2!internal-plugin-catalog-tab-2
+      - package: oci://quay.io/rhdh-community/rhdh-loadtest-plugins:bs_1.42_catalog-tab-2!internal-plugin-catalog-tab-2
         disabled: false
         pluginConfig:
           dynamicPlugins:
@@ -333,7 +333,7 @@ global:
                 mountPoints:
                   - mountPoint: entity.page.catalog-tab-2/cards
                     importName: EntityCatalogCard
-      - package: oci://quay.io/jerolimov/rhdh-loadtest-plugins:bs_1.42_catalog-tab-3!internal-plugin-catalog-tab-3
+      - package: oci://quay.io/rhdh-community/rhdh-loadtest-plugins:bs_1.42_catalog-tab-3!internal-plugin-catalog-tab-3
         disabled: false
         pluginConfig:
           dynamicPlugins:
@@ -346,7 +346,7 @@ global:
                 mountPoints:
                   - mountPoint: entity.page.catalog-tab-3/cards
                     importName: EntityCatalogCard
-      - package: oci://quay.io/jerolimov/rhdh-loadtest-plugins:bs_1.42_catalog-tab-4!internal-plugin-catalog-tab-4
+      - package: oci://quay.io/rhdh-community/rhdh-loadtest-plugins:bs_1.42_catalog-tab-4!internal-plugin-catalog-tab-4
         disabled: false
         pluginConfig:
           dynamicPlugins:
@@ -359,7 +359,7 @@ global:
                 mountPoints:
                   - mountPoint: entity.page.catalog-tab-4/cards
                     importName: EntityCatalogCard
-      - package: oci://quay.io/jerolimov/rhdh-loadtest-plugins:bs_1.42_catalog-tab-5!internal-plugin-catalog-tab-5
+      - package: oci://quay.io/rhdh-community/rhdh-loadtest-plugins:bs_1.42_catalog-tab-5!internal-plugin-catalog-tab-5
         disabled: false
         pluginConfig:
           dynamicPlugins:
@@ -372,7 +372,7 @@ global:
                 mountPoints:
                   - mountPoint: entity.page.catalog-tab-5/cards
                     importName: EntityCatalogCard
-      - package: oci://quay.io/jerolimov/rhdh-loadtest-plugins:bs_1.42_catalog-tab-6!internal-plugin-catalog-tab-6
+      - package: oci://quay.io/rhdh-community/rhdh-loadtest-plugins:bs_1.42_catalog-tab-6!internal-plugin-catalog-tab-6
         disabled: false
         pluginConfig:
           dynamicPlugins:
@@ -385,7 +385,7 @@ global:
                 mountPoints:
                   - mountPoint: entity.page.catalog-tab-6/cards
                     importName: EntityCatalogCard
-      - package: oci://quay.io/jerolimov/rhdh-loadtest-plugins:bs_1.42_catalog-tab-7!internal-plugin-catalog-tab-7
+      - package: oci://quay.io/rhdh-community/rhdh-loadtest-plugins:bs_1.42_catalog-tab-7!internal-plugin-catalog-tab-7
         disabled: false
         pluginConfig:
           dynamicPlugins:
@@ -398,7 +398,7 @@ global:
                 mountPoints:
                   - mountPoint: entity.page.catalog-tab-7/cards
                     importName: EntityCatalogCard
-      - package: oci://quay.io/jerolimov/rhdh-loadtest-plugins:bs_1.42_catalog-tab-8!internal-plugin-catalog-tab-8
+      - package: oci://quay.io/rhdh-community/rhdh-loadtest-plugins:bs_1.42_catalog-tab-8!internal-plugin-catalog-tab-8
         disabled: false
         pluginConfig:
           dynamicPlugins:
@@ -411,7 +411,7 @@ global:
                 mountPoints:
                   - mountPoint: entity.page.catalog-tab-8/cards
                     importName: EntityCatalogCard
-      - package: oci://quay.io/jerolimov/rhdh-loadtest-plugins:bs_1.42_catalog-tab-9!internal-plugin-catalog-tab-9
+      - package: oci://quay.io/rhdh-community/rhdh-loadtest-plugins:bs_1.42_catalog-tab-9!internal-plugin-catalog-tab-9
         disabled: false
         pluginConfig:
           dynamicPlugins:
@@ -424,7 +424,7 @@ global:
                 mountPoints:
                   - mountPoint: entity.page.catalog-tab-9/cards
                     importName: EntityCatalogCard
-      - package: oci://quay.io/jerolimov/rhdh-loadtest-plugins:bs_1.42_catalog-tab-10!internal-plugin-catalog-tab-10
+      - package: oci://quay.io/rhdh-community/rhdh-loadtest-plugins:bs_1.42_catalog-tab-10!internal-plugin-catalog-tab-10
         disabled: false
         pluginConfig:
           dynamicPlugins:
@@ -437,7 +437,7 @@ global:
                 mountPoints:
                   - mountPoint: entity.page.catalog-tab-10/cards
                     importName: EntityCatalogCard
-      - package: oci://quay.io/jerolimov/rhdh-loadtest-plugins:bs_1.42_catalog-tab-11!internal-plugin-catalog-tab-11
+      - package: oci://quay.io/rhdh-community/rhdh-loadtest-plugins:bs_1.42_catalog-tab-11!internal-plugin-catalog-tab-11
         disabled: false
         pluginConfig:
           dynamicPlugins:
@@ -450,7 +450,7 @@ global:
                 mountPoints:
                   - mountPoint: entity.page.catalog-tab-11/cards
                     importName: EntityCatalogCard
-      - package: oci://quay.io/jerolimov/rhdh-loadtest-plugins:bs_1.42_catalog-tab-12!internal-plugin-catalog-tab-12
+      - package: oci://quay.io/rhdh-community/rhdh-loadtest-plugins:bs_1.42_catalog-tab-12!internal-plugin-catalog-tab-12
         disabled: false
         pluginConfig:
           dynamicPlugins:
@@ -463,7 +463,7 @@ global:
                 mountPoints:
                   - mountPoint: entity.page.catalog-tab-12/cards
                     importName: EntityCatalogCard
-      - package: oci://quay.io/jerolimov/rhdh-loadtest-plugins:bs_1.42_catalog-tab-13!internal-plugin-catalog-tab-13
+      - package: oci://quay.io/rhdh-community/rhdh-loadtest-plugins:bs_1.42_catalog-tab-13!internal-plugin-catalog-tab-13
         disabled: false
         pluginConfig:
           dynamicPlugins:
@@ -476,7 +476,7 @@ global:
                 mountPoints:
                   - mountPoint: entity.page.catalog-tab-13/cards
                     importName: EntityCatalogCard
-      - package: oci://quay.io/jerolimov/rhdh-loadtest-plugins:bs_1.42_catalog-tab-14!internal-plugin-catalog-tab-14
+      - package: oci://quay.io/rhdh-community/rhdh-loadtest-plugins:bs_1.42_catalog-tab-14!internal-plugin-catalog-tab-14
         disabled: false
         pluginConfig:
           dynamicPlugins:
@@ -489,7 +489,7 @@ global:
                 mountPoints:
                   - mountPoint: entity.page.catalog-tab-14/cards
                     importName: EntityCatalogCard
-      - package: oci://quay.io/jerolimov/rhdh-loadtest-plugins:bs_1.42_catalog-tab-15!internal-plugin-catalog-tab-15
+      - package: oci://quay.io/rhdh-community/rhdh-loadtest-plugins:bs_1.42_catalog-tab-15!internal-plugin-catalog-tab-15
         disabled: false
         pluginConfig:
           dynamicPlugins:
@@ -502,7 +502,7 @@ global:
                 mountPoints:
                   - mountPoint: entity.page.catalog-tab-15/cards
                     importName: EntityCatalogCard
-      - package: oci://quay.io/jerolimov/rhdh-loadtest-plugins:bs_1.42_catalog-tab-16!internal-plugin-catalog-tab-16
+      - package: oci://quay.io/rhdh-community/rhdh-loadtest-plugins:bs_1.42_catalog-tab-16!internal-plugin-catalog-tab-16
         disabled: false
         pluginConfig:
           dynamicPlugins:
@@ -515,7 +515,7 @@ global:
                 mountPoints:
                   - mountPoint: entity.page.catalog-tab-16/cards
                     importName: EntityCatalogCard
-      - package: oci://quay.io/jerolimov/rhdh-loadtest-plugins:bs_1.42_catalog-tab-17!internal-plugin-catalog-tab-17
+      - package: oci://quay.io/rhdh-community/rhdh-loadtest-plugins:bs_1.42_catalog-tab-17!internal-plugin-catalog-tab-17
         disabled: false
         pluginConfig:
           dynamicPlugins:
@@ -528,7 +528,7 @@ global:
                 mountPoints:
                   - mountPoint: entity.page.catalog-tab-17/cards
                     importName: EntityCatalogCard
-      - package: oci://quay.io/jerolimov/rhdh-loadtest-plugins:bs_1.42_catalog-tab-18!internal-plugin-catalog-tab-18
+      - package: oci://quay.io/rhdh-community/rhdh-loadtest-plugins:bs_1.42_catalog-tab-18!internal-plugin-catalog-tab-18
         disabled: false
         pluginConfig:
           dynamicPlugins:
@@ -541,7 +541,7 @@ global:
                 mountPoints:
                   - mountPoint: entity.page.catalog-tab-18/cards
                     importName: EntityCatalogCard
-      - package: oci://quay.io/jerolimov/rhdh-loadtest-plugins:bs_1.42_catalog-tab-19!internal-plugin-catalog-tab-19
+      - package: oci://quay.io/rhdh-community/rhdh-loadtest-plugins:bs_1.42_catalog-tab-19!internal-plugin-catalog-tab-19
         disabled: false
         pluginConfig:
           dynamicPlugins:
@@ -554,7 +554,7 @@ global:
                 mountPoints:
                   - mountPoint: entity.page.catalog-tab-19/cards
                     importName: EntityCatalogCard
-      - package: oci://quay.io/jerolimov/rhdh-loadtest-plugins:bs_1.42_catalog-tab-20!internal-plugin-catalog-tab-20
+      - package: oci://quay.io/rhdh-community/rhdh-loadtest-plugins:bs_1.42_catalog-tab-20!internal-plugin-catalog-tab-20
         disabled: false
         pluginConfig:
           dynamicPlugins:
@@ -567,7 +567,7 @@ global:
                 mountPoints:
                   - mountPoint: entity.page.catalog-tab-20/cards
                     importName: EntityCatalogCard
-      - package: oci://quay.io/jerolimov/rhdh-loadtest-plugins:bs_1.42_catalog-tab-21!internal-plugin-catalog-tab-21
+      - package: oci://quay.io/rhdh-community/rhdh-loadtest-plugins:bs_1.42_catalog-tab-21!internal-plugin-catalog-tab-21
         disabled: false
         pluginConfig:
           dynamicPlugins:
@@ -580,7 +580,7 @@ global:
                 mountPoints:
                   - mountPoint: entity.page.catalog-tab-21/cards
                     importName: EntityCatalogCard
-      - package: oci://quay.io/jerolimov/rhdh-loadtest-plugins:bs_1.42_catalog-tab-22!internal-plugin-catalog-tab-22
+      - package: oci://quay.io/rhdh-community/rhdh-loadtest-plugins:bs_1.42_catalog-tab-22!internal-plugin-catalog-tab-22
         disabled: false
         pluginConfig:
           dynamicPlugins:
@@ -593,7 +593,7 @@ global:
                 mountPoints:
                   - mountPoint: entity.page.catalog-tab-22/cards
                     importName: EntityCatalogCard
-      - package: oci://quay.io/jerolimov/rhdh-loadtest-plugins:bs_1.42_catalog-tab-23!internal-plugin-catalog-tab-23
+      - package: oci://quay.io/rhdh-community/rhdh-loadtest-plugins:bs_1.42_catalog-tab-23!internal-plugin-catalog-tab-23
         disabled: false
         pluginConfig:
           dynamicPlugins:
@@ -606,7 +606,7 @@ global:
                 mountPoints:
                   - mountPoint: entity.page.catalog-tab-23/cards
                     importName: EntityCatalogCard
-      - package: oci://quay.io/jerolimov/rhdh-loadtest-plugins:bs_1.42_catalog-tab-24!internal-plugin-catalog-tab-24
+      - package: oci://quay.io/rhdh-community/rhdh-loadtest-plugins:bs_1.42_catalog-tab-24!internal-plugin-catalog-tab-24
         disabled: false
         pluginConfig:
           dynamicPlugins:
@@ -619,7 +619,7 @@ global:
                 mountPoints:
                   - mountPoint: entity.page.catalog-tab-24/cards
                     importName: EntityCatalogCard
-      - package: oci://quay.io/jerolimov/rhdh-loadtest-plugins:bs_1.42_catalog-tab-25!internal-plugin-catalog-tab-25
+      - package: oci://quay.io/rhdh-community/rhdh-loadtest-plugins:bs_1.42_catalog-tab-25!internal-plugin-catalog-tab-25
         disabled: false
         pluginConfig:
           dynamicPlugins:

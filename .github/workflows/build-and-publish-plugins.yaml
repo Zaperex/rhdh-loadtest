@@ -10,8 +10,8 @@ on:
         options:
           - backstage-1.42
           - backstage-1.45
-          - backstage-1.49
-          - backstage-1.52
+          # - backstage-1.49
+          # - backstage-1.52
       start:
         description: Start number of plugin instances (1-100)
         required: true
@@ -68,14 +68,26 @@ jobs:
         run: yarn install --immutable
         working-directory: plugins/${{ inputs.workspace }}
 
-      - name: Build plugin instances
-        run: |
-          echo "Building plugin instance n"
-          for i in $(seq ${{ inputs.start }} ${{ inputs.end }}); do
-            echo "Building plugin instance $i"
-          done
-          echo "Reset to plugin instance n"
+      - name: TypeScript type check
+        run: yarn tsc
         working-directory: plugins/${{ inputs.workspace }}
+
+      - name: Lint
+        run: yarn lint:all
+        working-directory: plugins/${{ inputs.workspace }}
+
+      - name: Build plugin (as precheck)
+        run: yarn build:all
+        working-directory: plugins/${{ inputs.workspace }}
+
+      - name: Build n plugin instances
+        run: ./scripts/ci/build-and-publish-plugins.sh
+        env:
+          WORKSPACE: ${{ inputs.workspace }}
+          START: ${{ inputs.start }}
+          END: ${{ inputs.end }}
+          QUAY_USERNAME: ${{ secrets.QUAY_USERNAME }}
+          QUAY_PASSWORD: ${{ secrets.QUAY_PASSWORD }}
 
       - name: Verify no changes in .github/
         run: |

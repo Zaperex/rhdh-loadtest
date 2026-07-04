@@ -1,4 +1,4 @@
-# [RHDH](https://developers.redhat.com/rhdh) lightweight loadtest tools
+# [RHDH](https://developers.redhat.com/rhdh) loadtest container images and tooling
 
 This repository contains ArgoCD resources, Helm charts and other resources
 to setup different RHDH versions on Kubernetes with up to 200 dynamic (frontend) plugins
@@ -104,10 +104,10 @@ One that adds a new page to the main navigation and one that adds a new tab to t
 
 The scripts folder contains scripts to build these plugins 100 times with indepenend `pluginIds` to integrate these plugins multiple times into RHDH.
 
-They are published as one container image under [quay.io/jerolimov/rhdh-loadtest-plugins](https://quay.io/repository/jerolimov/rhdh-loadtest-plugins?tab=tags) with a tag for each combinaton. For example:
+They are published as one container image under [quay.io/rhdh-community/rhdh-loadtest-plugins](https://quay.io/repository/jerolimov/rhdh-loadtest-plugins?tab=tags) with a tag for each combinaton. For example:
 
-* `quay.io/jerolimov/rhdh-loadtest-plugins:bs_1.42_page-n`
-* `quay.io/jerolimov/rhdh-loadtest-plugins:bs_1.42_catalog-tab-n`
+* `quay.io/rhdh-community/rhdh-loadtest-plugins:bs_1.42_page-n`
+* `quay.io/rhdh-community/rhdh-loadtest-plugins:bs_1.42_catalog-tab-n`
 
 The Backstage version can be replaced with `bs_1.42`, `bs_1.45`, `bs_1.49` or `bs_1.52` and the `-n` can be replaced with a 1 to 100 so that up to 200 dynamic (frontend) plugins can be loaded for each RHDH release.
 
@@ -120,7 +120,7 @@ global:
   dynamic:
     plugins:
       #                                                replace this ↓↓      ↓                      ↓
-      - package: oci://quay.io/jerolimov/rhdh-loadtest-plugins:bs_1.42_page-n!internal-plugin-page-n
+      - package: oci://quay.io/rhdh-community/rhdh-loadtest-plugins:bs_1.42_page-n!internal-plugin-page-n
         disabled: false
         pluginConfig:
           dynamicPlugins:
@@ -146,7 +146,7 @@ global:
   dynamic:
     plugins:
       #                                                replace this ↓↓             ↓                             ↓
-      - package: oci://quay.io/jerolimov/rhdh-loadtest-plugins:bs_1.42_catalog-tab-n!internal-plugin-catalog-tab-n
+      - package: oci://quay.io/rhdh-community/rhdh-loadtest-plugins:bs_1.42_catalog-tab-n!internal-plugin-catalog-tab-n
         disabled: false
         pluginConfig:
           dynamicPlugins:
