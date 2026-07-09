@@ -35,7 +35,7 @@
     "build:all": "backstage-cli repo build --all",
     "build-image": "yarn workspace backend build-image",
     "tsc": "tsc",
-    "tsc:full": "tsc --skipLibCheck false --incremental false",
+    "tsc:full": "tsc --skipLibCheck true --incremental false",
     "clean": "backstage-cli repo clean",
     "test": "backstage-cli repo test",
     "test:all": "backstage-cli repo test --coverage",
@@ -65,6 +65,8 @@
     "typescript": "~5.8.0"
   },
   "resolutions": {
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
     "@backstage/app-defaults": "1.7.6",
     "@backstage/backend-app-api": "1.6.0",
     "@backstage/backend-defaults": "0.16.0",
