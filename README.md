@@ -39,9 +39,9 @@ oc apply -f argocd/app-of-legacy-apps.yaml    # for 1.7 and 1.8
 or, without cloning:
 
 ```bash
-oc apply -f https://raw.githubusercontent.com/christoph-jerolimov/rhdh-loadtests/refs/heads/main/argocd/app-project.yaml
-oc apply -f https://raw.githubusercontent.com/christoph-jerolimov/rhdh-loadtests/refs/heads/main/argocd/app-of-default-apps.yaml
-oc apply -f https://raw.githubusercontent.com/christoph-jerolimov/rhdh-loadtests/refs/heads/main/argocd/app-of-legacy-apps.yaml
+oc apply -f https://raw.githubusercontent.com/redhat-developer/rhdh-loadtest/refs/heads/main/argocd/app-project.yaml
+oc apply -f https://raw.githubusercontent.com/redhat-developer/rhdh-loadtest/refs/heads/main/argocd/app-of-default-apps.yaml
+oc apply -f https://raw.githubusercontent.com/redhat-developer/rhdh-loadtest/refs/heads/main/argocd/app-of-legacy-apps.yaml
 ```
 
 Or create just a single application:
@@ -54,8 +54,8 @@ oc apply -f argocd/default-apps/rhdh-110-nfs.yaml
 or, without cloning:
 
 ```bash
-oc apply -f https://raw.githubusercontent.com/christoph-jerolimov/rhdh-loadtests/refs/heads/main/argocd/app-project.yaml
-oc apply -f https://raw.githubusercontent.com/christoph-jerolimov/rhdh-loadtests/refs/heads/main/argocd/default-apps/rhdh-110-nfs.yaml
+oc apply -f https://raw.githubusercontent.com/redhat-developer/rhdh-loadtest/refs/heads/main/argocd/app-project.yaml
+oc apply -f https://raw.githubusercontent.com/redhat-developer/rhdh-loadtest/refs/heads/main/argocd/default-apps/rhdh-110-nfs.yaml
 ```
 
 ## Test catalog entities
@@ -104,7 +104,7 @@ One that adds a new page to the main navigation and one that adds a new tab to t
 
 The scripts folder contains scripts to build these plugins 100 times with indepenend `pluginIds` to integrate these plugins multiple times into RHDH.
 
-They are published as one container image under [quay.io/rhdh-community/rhdh-loadtest-plugins](https://quay.io/repository/jerolimov/rhdh-loadtest-plugins?tab=tags) with a tag for each combinaton. For example:
+They are published as one container image under [quay.io/rhdh-community/rhdh-loadtest-plugins](https://quay.io/repository/rhdh-community/rhdh-loadtest-plugins?tab=tags) with a tag for each combinaton. For example:
 
 * `quay.io/rhdh-community/rhdh-loadtest-plugins:bs_1.42_page-n`
 * `quay.io/rhdh-community/rhdh-loadtest-plugins:bs_1.42_catalog-tab-n`
