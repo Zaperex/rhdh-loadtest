@@ -14,12 +14,6 @@ spec:
           env:
             - name: FORCE_COLOR
               value: "true"
-            - name: COREPACK_HOME
-              value: /tmp/corepack
-            - name: HOME
-              value: /tmp
-            - name: PLAYWRIGHT_JSON_OUTPUT_DIR
-              value: /tmp
             - name: PLAYWRIGHT_JSON_OUTPUT_FILE
-              value: /tmp/test-results.json
-          command: ["yarn", "playwright", "test", "--output", "/tmp/test-results"]
+              value: /tmp/playwright/test-results.json
+          command: ["sh", "-c", "yarn playwright test --output /tmp/playwright && yarn analyse"]

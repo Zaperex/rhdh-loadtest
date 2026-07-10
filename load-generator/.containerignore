@@ -7,7 +7,6 @@
 # not required
 /Makefile
 /k8s
-/scripts
 
 # Yarn
 .yarn/install-state.gz

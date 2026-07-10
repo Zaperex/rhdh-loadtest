@@ -12,6 +12,7 @@ JOB_NAME=$(
   kubectl create --dry-run=client -o yaml -n "$NAMESPACE" -f "$SCRIPT_DIR/job.yaml" |
   kubectl set env -f - --local -o yaml \
     RHDH_URL="${RHDH_URL:-}" \
+    RHDH_FRONTEND="${RHDH_FRONTEND:-}" \
     LOOPS="${LOOPS:-}" |
   kubectl create -n "$NAMESPACE" -f - -o jsonpath='{.metadata.name}'
 )
