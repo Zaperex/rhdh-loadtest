@@ -1,4 +1,16 @@
+# private 
+.claude
+.containerignore
+.gitignore
 /node_modules
+
+# not required
+/Makefile
+/k8s
+/scripts
+
+# Yarn
+.yarn/install-state.gz
 
 # Playwright
 /test-results.json

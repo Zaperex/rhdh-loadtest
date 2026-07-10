@@ -12,8 +12,14 @@ spec:
         - name: loadtest
           image: quay.io/rhdh-community/rhdh-loadtest-generator
           env:
+            - name: FORCE_COLOR
+              value: "true"
             - name: COREPACK_HOME
               value: /tmp/corepack
             - name: HOME
               value: /tmp
+            - name: PLAYWRIGHT_JSON_OUTPUT_DIR
+              value: /tmp
+            - name: PLAYWRIGHT_JSON_OUTPUT_FILE
+              value: /tmp/test-results.json
           command: ["yarn", "playwright", "test", "--output", "/tmp/test-results"]
